@@ -59,7 +59,7 @@ header {
 }
 
 
-.projects, .about, .contact .Certificate {
+.projects, .about, .contact, .Certificate {
     padding: 37px;
     
     font-size: 16px;
