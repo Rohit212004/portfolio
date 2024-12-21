@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+               
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Skills">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Certificate">Certificates</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="image"> <img src="https://avatars.githubusercontent.com/u/192405831?s=400&u=6295462aaf286f6a3c4c4caa90548a77076dacd0&v=4" alt="rohits photo" style="width:300px; height:auto;border-radius: 50%;"></div>
+            <h1>Hi, I'm <br><span>Rohit S. Vishwakarma</span></h1>
+            <p>Student |Electronics and telecommunication engineering - Goa college of Engineering | 2026 </p>
+            <a href="#projects" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="https://imgs.search.brave.com/4ZQ6zXKgqvEmpJsDoJqGUXC-Q8JyFUrMJQNyccwz4iQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzcyL0VsZWN0aW9u/X0NvbW1pc3Npb25f/b2ZfSW5kaWFfTG9n/by5zdmc" alt="Project 1">
+                    <a href="https://github.com/Rohit212004/Voting_Que"><h3>voting que</h3></a>
+                    <p>This Project 2nd prize in Department Hackathon. <br>
+                    basically it's about detecting the no of people standing in voter que or any que</p>
+                </div>
+                <div class="project">
+                     <img src="https://imgs.search.brave.com/5H9yy6uC1w6WFgs3ixkgqNkY0us2aLT-p4KT4Uy3Iz8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2NiL1JCRy1MRUQu/anBn" alt="Project 2">
+                     <a href="https://drive.google.com/file/d/1pgqjZGBgSUJdepsqT5EtEOVn30IlXqsT/view?usp=drivesdk"><h3>automatic led</h3></a>
+                    <p>Electronics Instruments and automation Hardware Project. <br>
+                    basically its about the automation of the led light and controlling the color of light using bluetooth of any smartphone device.</p>
+                </div>
+                <div class="project">
+                 <img src="https://imgs.search.brave.com/anSdT9eWlwJCBpAe-rO-HQvCCtsfmvTg8dGgG5kF_8E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucHJpc21pYy5p/by9zd2lzc2Jvcmct/d2Vic2l0ZS9kZTBj/NDY1NC0wZDAyLTQ5/MGMtOWY1Zi0wMmE2/Nzc5YjI0ODBfQW5h/bHl0aWNzLnBuZz9h/dXRvPWNvbXByZXNz/LGZvcm1hdCZyZWN0/PTAsMCwyMjAwLDIy/MDAmdz01NTAmaD01/NTAmZml0PW1heCZx/PTgw" alt="Project 3">
+                    <a href="https://github.com/Rohit212004/portfolio.git"><h3>Portfolio Website</h3></a>
+                    <p>provides the portfolio of user</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills" class="about">
+        <div class="container">
+            <h2>Skills</h2>
+            <h4>languages: <br></h4>
+            <ul><li>HTML</li>
+            <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    <li>python</li>
+<li>php</li></ul>
+<h4>Hardware Programming Language: <br></h4>
+<ul><li>verilog</li>
+<li>PLC</li></ul>
+        </div>
+    </section>
+    <section id="Certificate" class="Certificate"><div class="container">
+        <h2> Certificates:</h2>
+         <ul><li><a href="https://drive.google.com/file/d/1-TZ4zA5lM2ihnHk9LVplkyUkrTP_SoRj/view?usp=drivesdk"><h4>Python </h4>
+         </a></li>
+         <li><a href=""><h4>Hackathon</h4></a></li></ul>
+     </div></section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" style="display: flex;
+            flex-direction: column;
+            gap:1px;">
+                <input type="text" placeholder="Your Name"style="padding: 5px;width: 100%;border-radius: 50px;" required><br>
+                <input type="email" placeholder="Your Email" style="padding: 5px;width: 100%;border-radius: 50px;"required><br>
+                <textarea placeholder="Your Message" style="padding: 5px;width: 100%;border-radius: 50px;"required></textarea><br>
+                <button type="submit" class="btn"style="padding: 5px;width: 100%;background: #5e84ff;border-radius: 50px;">Send</button><br>
+                <input type="reset"style="padding: 5px;width: 100%;background: #5e84ff;border-radius: 50px;">
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-logo"><caption>you can also contact me here: <br></caption>
+           <a href="https://github.com/Rohit212004"><img src="images/github-logo.png" alt="Logo"></a> 
+           <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQXKhQTsRCMSPlZWjqmBmfpGtMT?compose=CllgCJTGnQJDCdTkVmBHhXqCVHkkSSGgtRxpkmVxsNZPPwTRCBbWzDcbhglQmJfJGVKzZmKwxgB"><img src="images/email.png" alt="email"></a> 
+            <a href="https://www.linkedin.com/in/rohit-vishwakarma-62561628b/"><img src="images/linkedin-logo.png" alt="linkedin"></a>
+          </div>
+        <div class="container">
+            <p>&copy; 2024 This website is developed by Rohit Vishwakarma. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    <script src="myjavascript.js"></script>
+</body>
+</html>
