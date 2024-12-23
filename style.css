@@ -5,13 +5,12 @@ html,body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #000000;
-    background: aliceblue;
+background:aliceblue;
    
 }
 
 header {
-    color: #fff;
+    color: #0c0b0b;
     padding: 30px;
 }
 
@@ -80,7 +79,7 @@ header {
     border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 5px;
-    background: #fff;
+    background: #ffffff;
 }
 
 .project img {
@@ -95,12 +94,12 @@ header {
 
 
 footer {
-    background: #212529;
-    color: #f8f9fa;
+    background: #d1d3d5;
+    color: #000;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-    width:100%
+    width: 100%;
 }
 
 .footer-logo img {
@@ -114,24 +113,8 @@ footer {
     width:100%
 
 }
-form input, form textarea {
-    width: 100%;
-    padding: 3vh;
-    margin: 2vh 0;
-    border-radius: 3vh;
-    border: 1px solid #ddd;
-}
 
-form button {
-    padding: 4vh 8vw;
-    background-color: #212529;
-    color: #f8f9fa;
-    border: none;
-    border-radius: 3vh;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 2vh;
-}
+
 
 form button:hover {
     background-color: #f4a261;
