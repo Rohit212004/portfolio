@@ -53,7 +53,7 @@ const PROJECTS_DATA = [
         description: 'Responsive personal portfolio website showcasing projects, skills, and experience. Features smooth animations, dark/light theme toggle, and interactive UI elements built with vanilla JavaScript.',
         tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'AOS'],
         image: 'images/portfolio.png',
-        githubUrl: 'https://github.com/rohitvishwakarma2110'
+        githubUrl: 'https://github.com/Rohit212004/portfolio'
     }
 ];
 
@@ -663,3 +663,4 @@ window.addEventListener('unhandledrejection', (event) => {
 });
 
 /* End of Script */
+
